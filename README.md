@@ -44,7 +44,7 @@ php artisan serve
 
 Setelah menjalankan `php artisan migrate:fresh --seed`, pengguna dapat mengakses aplikasi melalui mode demonstrasi yang telah disediakan oleh sistem.
 
-> Catatan: Untuk keperluan demonstrasi dan pengujian fungsional, tombol demo tersedia pada halaman login sehingga pengguna dapat langsung mengakses dashboard tanpa melalui proses autentikasi yang lebih kompleks.
+> Catatan: Untuk keperluan demonstrasi dan pengujian fungsional, tombol demo tersedia pada halaman login
 
  Konfigurasi Database Hosting
 
