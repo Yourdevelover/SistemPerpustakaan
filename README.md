@@ -1,18 +1,18 @@
-# 📚 Sistem Manajemen Perpustakaan Digital
+Sistem Manajemen Perpustakaan Digital
 
 Aplikasi manajemen perpustakaan berbasis web dengan Laravel, dilengkapi fitur pengelolaan buku, anggota, peminjaman, pengembalian, denda, dan laporan.
 
-## ✨ Fitur
+Fitur
 
-- **Multi Role User** — Admin, Siswa, Guru, Kepala Sekolah
-- **Manajemen Buku** — CRUD buku, kategori, dan lokasi rak
-- **Manajemen Anggota** — Data anggota perpustakaan
-- **Peminjaman & Pengembalian** — Transaksi peminjaman dengan detail
-- **Denda** — Perhitungan denda otomatis
-- **Laporan & Statistik** — Dashboard admin dan anggota
-- **UI Modern** — Desain premium dengan Tailwind CSS + Lucide Icons
+- Multi Role User — Admin, Siswa, Guru, Kepala Sekolah
+- Manajemen Buku — CRUD buku, kategori, dan lokasi rak
+- Manajemen Anggota — Data anggota perpustakaan
+- Peminjaman & Pengembalian — Transaksi peminjaman dengan detail
+- Denda — Perhitungan denda otomatis
+- Laporan & Statistik — Dashboard admin dan anggota
+- UI Modern — Desain premium dengan Tailwind CSS + Lucide Icons
 
-## 🚀 Instalasi
+Instalasi
 
 ```bash
 # 1. Clone repositori
@@ -40,19 +40,19 @@ npm run build
 php artisan serve
 ```
 
-## 🔑 Akses Demonstrasi
+ Akses Demonstrasi
 
 Setelah menjalankan `php artisan migrate:fresh --seed`, pengguna dapat mengakses aplikasi melalui mode demonstrasi yang telah disediakan oleh sistem.
 
-> **Catatan:** Untuk keperluan demonstrasi dan pengujian fungsional, tombol demo tersedia pada halaman login sehingga pengguna dapat langsung mengakses dashboard tanpa melalui proses autentikasi yang lebih kompleks.
+> Catatan: Untuk keperluan demonstrasi dan pengujian fungsional, tombol demo tersedia pada halaman login sehingga pengguna dapat langsung mengakses dashboard tanpa melalui proses autentikasi yang lebih kompleks.
 
-## 🗄️ Konfigurasi Database Hosting
+ Konfigurasi Database Hosting
 
 Untuk deployment pada hosting InfinityFree, konfigurasi database yang digunakan dapat disesuaikan dengan data berikut:
 
 
 
-## 🧪 Testing
+Testing
 
 ```bash
 # Jalankan semua test
@@ -62,14 +62,14 @@ php artisan test
 php artisan test --filter=UserTest
 ```
 
-## 🛠️ Tech Stack
+ 🛠️ Tech Stack
 
-- **Backend:** Laravel 11
-- **Frontend:** Tailwind CSS, Alpine.js, Lucide Icons
-- **Database:** MySQL / SQLite
-- **Auth:** Laravel Breeze
+- Backend: Laravel 11
+- Frontend: Tailwind CSS, Alpine.js, Lucide Icons
+- Database: MySQL / SQLite
+- Auth: Laravel Breeze
 
-## 📁 Struktur Direktori
+ 📁 Struktur Direktori
 
 ```
 app/
@@ -93,10 +93,3 @@ app/
 └── ...
 ```
 
-## 📸 Screenshot
-
-> *(Tambahkan screenshot aplikasi di sini)*
-
-## 📄 Lisensi
-
-Proyek ini menggunakan lisensi MIT.
