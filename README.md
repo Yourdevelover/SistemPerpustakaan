@@ -40,6 +40,11 @@ npm run build
 php artisan serve
 ```
 
+akun dan password
+
+account : siswa1@perpustakaan.com / kepsek1@perpustakaan.com
+password: password123
+
  Akses Demonstrasi
 
 Setelah menjalankan `php artisan migrate:fresh --seed`, pengguna dapat mengakses aplikasi melalui mode demonstrasi yang telah disediakan oleh sistem.
